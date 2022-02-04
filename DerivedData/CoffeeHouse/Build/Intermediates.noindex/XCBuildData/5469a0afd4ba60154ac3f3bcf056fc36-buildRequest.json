@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "91ea8554098ecf77cef0bb981edc29b6be410b0e2e262211e84326ad61a3b3cd"
+    }
+  ],
+  "containerPath" : "/Users/lena/Desktop/study/CoffeeHouse/CoffeeHouse.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/lena/Desktop/study/CoffeeHouse/DerivedData/CoffeeHouse/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/lena/Desktop/study/CoffeeHouse/DerivedData/CoffeeHouse/Build/Products",
+      "derivedDataPath" : "/Users/lena/Desktop/study/CoffeeHouse/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/lena/Desktop/study/CoffeeHouse/DerivedData/CoffeeHouse/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/lena/Desktop/study/CoffeeHouse/DerivedData/CoffeeHouse/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/lena/Desktop/study/CoffeeHouse/DerivedData/CoffeeHouse/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,5",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "D17BAA20-F066-4B39-AFDD-E407C0576087",
+          "TARGET_DEVICE_MODEL" : "iPhone14,5",
+          "TARGET_DEVICE_OS_VERSION" : "15.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
