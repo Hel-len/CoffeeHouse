@@ -40,6 +40,40 @@
 			<key>uniqueIdentifier</key>
 			<string>01FD8290-8ECD-405C-91C5-2C753A0EC866</string>
 		</dict>
+		<key>01FE4F0E-BE87-4F67-8187-D9962FCCA36E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>01FE4F0E-BE87-4F67-8187-D9962FCCA36E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664189.49619997</real>
+			<key>timeStoppedRecording</key>
+			<real>665664189.70404696</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>01FE4F0E-BE87-4F67-8187-D9962FCCA36E</string>
+		</dict>
 		<key>033E0D99-590C-48BE-A7AA-1B7426B010AC</key>
 		<dict>
 			<key>className</key>
@@ -107,6 +141,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>06C31FA8-6E4E-49FF-8EF0-3B6FA46D372C</string>
+		</dict>
+		<key>07AFD41D-03F6-4A61-BBC1-0DC994A81E74</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>07AFD41D-03F6-4A61-BBC1-0DC994A81E74.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666217.38454604</real>
+			<key>timeStoppedRecording</key>
+			<real>665666217.93221498</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>07AFD41D-03F6-4A61-BBC1-0DC994A81E74</string>
 		</dict>
 		<key>080011CF-0A7A-4A36-9D84-78386FFE7DE7</key>
 		<dict>
@@ -516,6 +584,74 @@
 			<key>uniqueIdentifier</key>
 			<string>1D4C1105-2BD6-424A-B881-07A5C32BBB32</string>
 		</dict>
+		<key>1D63D918-EC05-49E7-8F5E-9BBB80E869DD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1D63D918-EC05-49E7-8F5E-9BBB80E869DD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664854.27999103</real>
+			<key>timeStoppedRecording</key>
+			<real>665664854.50333798</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>1D63D918-EC05-49E7-8F5E-9BBB80E869DD</string>
+		</dict>
+		<key>1DE64EC9-356A-42E3-B2E3-13DFBDF4F91E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1DE64EC9-356A-42E3-B2E3-13DFBDF4F91E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664323.73376095</real>
+			<key>timeStoppedRecording</key>
+			<real>665664323.97273397</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>1DE64EC9-356A-42E3-B2E3-13DFBDF4F91E</string>
+		</dict>
 		<key>1DF25097-7846-4244-9BB7-633E97047D0A</key>
 		<dict>
 			<key>className</key>
@@ -685,6 +821,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>2043E495-499B-4E30-88C3-49AF30183250</string>
+		</dict>
+		<key>22A28E43-519D-4402-A528-F66724CF2AA7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>22A28E43-519D-4402-A528-F66724CF2AA7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664001.54924095</real>
+			<key>timeStoppedRecording</key>
+			<real>665664001.75831795</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>22A28E43-519D-4402-A528-F66724CF2AA7</string>
 		</dict>
 		<key>258A6FF5-F163-4C33-8564-48265B831D29</key>
 		<dict>
@@ -856,6 +1026,40 @@
 			<key>uniqueIdentifier</key>
 			<string>28F8F879-4741-424B-8427-EECC013EEFD9</string>
 		</dict>
+		<key>294CB9B2-1938-46E6-8E3F-2881B4AEB13E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>294CB9B2-1938-46E6-8E3F-2881B4AEB13E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665694499.58927</real>
+			<key>timeStoppedRecording</key>
+			<real>665694500.06706798</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>294CB9B2-1938-46E6-8E3F-2881B4AEB13E</string>
+		</dict>
 		<key>29B86E5F-8237-44AD-9761-94CF999A2F4A</key>
 		<dict>
 			<key>className</key>
@@ -1026,6 +1230,40 @@
 			<key>uniqueIdentifier</key>
 			<string>31F5EC98-2932-46E2-8A2D-0312E34BC3D8</string>
 		</dict>
+		<key>321E4209-614C-49B8-AB0C-324132BCB3E7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>321E4209-614C-49B8-AB0C-324132BCB3E7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664178.04237998</real>
+			<key>timeStoppedRecording</key>
+			<real>665664178.25895798</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>321E4209-614C-49B8-AB0C-324132BCB3E7</string>
+		</dict>
 		<key>32F3ABB2-2B45-4DF2-8E5A-35BBC3D13E42</key>
 		<dict>
 			<key>className</key>
@@ -1059,6 +1297,74 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>32F3ABB2-2B45-4DF2-8E5A-35BBC3D13E42</string>
+		</dict>
+		<key>33729B75-94E6-4A67-9754-81F6ADA84001</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>33729B75-94E6-4A67-9754-81F6ADA84001.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666318.58338296</real>
+			<key>timeStoppedRecording</key>
+			<real>665666319.187729</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>33729B75-94E6-4A67-9754-81F6ADA84001</string>
+		</dict>
+		<key>3379E353-A573-4916-B47C-E5EACEBAEE0B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3379E353-A573-4916-B47C-E5EACEBAEE0B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664908.61964202</real>
+			<key>timeStoppedRecording</key>
+			<real>665664909.18782103</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>3379E353-A573-4916-B47C-E5EACEBAEE0B</string>
 		</dict>
 		<key>350F9448-4F92-45F0-B2A8-24220BF6548A</key>
 		<dict>
@@ -1434,6 +1740,40 @@
 			<key>uniqueIdentifier</key>
 			<string>3F03022F-50FC-4AAE-B562-F5A8589CDA5A</string>
 		</dict>
+		<key>3F142513-7E90-4A6E-AF45-37E92BFA8BB8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3F142513-7E90-4A6E-AF45-37E92BFA8BB8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665663845.50182796</real>
+			<key>timeStoppedRecording</key>
+			<real>665663845.73657501</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>3F142513-7E90-4A6E-AF45-37E92BFA8BB8</string>
+		</dict>
 		<key>3F6C626A-1662-4295-962F-54AA84AE0B09</key>
 		<dict>
 			<key>className</key>
@@ -1502,6 +1842,40 @@
 			<key>uniqueIdentifier</key>
 			<string>3FE7B64A-3474-4067-B24B-1F62CCB34D2C</string>
 		</dict>
+		<key>400A63E7-5F84-4AFE-B4DD-C21B4B84433E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>400A63E7-5F84-4AFE-B4DD-C21B4B84433E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665663141.10283101</real>
+			<key>timeStoppedRecording</key>
+			<real>665663141.37040305</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>400A63E7-5F84-4AFE-B4DD-C21B4B84433E</string>
+		</dict>
 		<key>40114AA4-D149-4B4F-B8C2-5A382CB75946</key>
 		<dict>
 			<key>className</key>
@@ -1535,6 +1909,108 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>40114AA4-D149-4B4F-B8C2-5A382CB75946</string>
+		</dict>
+		<key>403F15C5-88BF-44BD-9CE7-9FF67E944E46</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>403F15C5-88BF-44BD-9CE7-9FF67E944E46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664248.70364904</real>
+			<key>timeStoppedRecording</key>
+			<real>665664248.910537</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>403F15C5-88BF-44BD-9CE7-9FF67E944E46</string>
+		</dict>
+		<key>40A42EFB-DD1F-407B-80B7-1BB20EDD25AD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>40A42EFB-DD1F-407B-80B7-1BB20EDD25AD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665663128.38582397</real>
+			<key>timeStoppedRecording</key>
+			<real>665663128.72975302</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>40A42EFB-DD1F-407B-80B7-1BB20EDD25AD</string>
+		</dict>
+		<key>40E089AD-0BB7-4C70-B3FD-2F8C5A16C9ED</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>40E089AD-0BB7-4C70-B3FD-2F8C5A16C9ED.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665694375.96370006</real>
+			<key>timeStoppedRecording</key>
+			<real>665694377.10054696</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>40E089AD-0BB7-4C70-B3FD-2F8C5A16C9ED</string>
 		</dict>
 		<key>41EC261E-8FA3-485E-9658-B41B4EB63ED3</key>
 		<dict>
@@ -1740,6 +2216,40 @@
 			<key>uniqueIdentifier</key>
 			<string>47332C97-DF22-4CC5-88E4-0FD4005F477B</string>
 		</dict>
+		<key>49E7DB3A-96A7-408F-B59F-026E3345D3A8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>49E7DB3A-96A7-408F-B59F-026E3345D3A8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664877.37748098</real>
+			<key>timeStoppedRecording</key>
+			<real>665664877.58923304</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>49E7DB3A-96A7-408F-B59F-026E3345D3A8</string>
+		</dict>
 		<key>4B32450D-B089-493A-BFB1-EB7C06160CEB</key>
 		<dict>
 			<key>className</key>
@@ -1807,6 +2317,74 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>4C235949-FA1E-4DF7-9357-EB92BE599854</string>
+		</dict>
+		<key>4C8B3CBC-B8A8-4EDA-BF7A-176054F034B1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4C8B3CBC-B8A8-4EDA-BF7A-176054F034B1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690476.42602599</real>
+			<key>timeStoppedRecording</key>
+			<real>665690476.67366505</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>4C8B3CBC-B8A8-4EDA-BF7A-176054F034B1</string>
+		</dict>
+		<key>4D291152-2CC2-4199-96E8-35F41DD473C9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4D291152-2CC2-4199-96E8-35F41DD473C9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665691135.71456599</real>
+			<key>timeStoppedRecording</key>
+			<real>665691136.113271</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>4D291152-2CC2-4199-96E8-35F41DD473C9</string>
 		</dict>
 		<key>4DBC563A-5852-4EA4-86FD-E38BA8645085</key>
 		<dict>
@@ -2317,6 +2895,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>5EB9B92E-F83B-419C-A366-76887A50FFEE</string>
+		</dict>
+		<key>5ED518AF-CCCE-4550-88E2-2C7A56AA9DE2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5ED518AF-CCCE-4550-88E2-2C7A56AA9DE2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666144.89400196</real>
+			<key>timeStoppedRecording</key>
+			<real>665666145.08257401</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>5ED518AF-CCCE-4550-88E2-2C7A56AA9DE2</string>
 		</dict>
 		<key>5F4CDC4A-7C81-465B-94EA-282FB6AE0F1E</key>
 		<dict>
@@ -2862,6 +3474,40 @@
 			<key>uniqueIdentifier</key>
 			<string>70FE063B-E772-44BD-A80D-2606F92E97A7</string>
 		</dict>
+		<key>7133BD1D-BC93-4416-B5AA-1F40808AC8EC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7133BD1D-BC93-4416-B5AA-1F40808AC8EC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665694386.75068998</real>
+			<key>timeStoppedRecording</key>
+			<real>665694387.75705302</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>7133BD1D-BC93-4416-B5AA-1F40808AC8EC</string>
+		</dict>
 		<key>71CFBB33-C6B8-495C-9BE8-00761DB42CEE</key>
 		<dict>
 			<key>className</key>
@@ -2895,6 +3541,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>71CFBB33-C6B8-495C-9BE8-00761DB42CEE</string>
+		</dict>
+		<key>729648CF-3DC6-4E97-B46F-F14B94DB2E4E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>729648CF-3DC6-4E97-B46F-F14B94DB2E4E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690380.39501595</real>
+			<key>timeStoppedRecording</key>
+			<real>665690380.84499598</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>729648CF-3DC6-4E97-B46F-F14B94DB2E4E</string>
 		</dict>
 		<key>73ACC554-9CFE-4B20-BFAC-0B0AFDB29912</key>
 		<dict>
@@ -3031,6 +3711,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>77F8E1C6-C60B-499C-B3D7-7F818AACAD6B</string>
+		</dict>
+		<key>7968F4C9-192C-4BD3-AF96-54A1D732BBB1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7968F4C9-192C-4BD3-AF96-54A1D732BBB1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666827.83150101</real>
+			<key>timeStoppedRecording</key>
+			<real>665666828.38954103</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>7968F4C9-192C-4BD3-AF96-54A1D732BBB1</string>
 		</dict>
 		<key>7A5524C2-BE75-44FB-9017-95AAFFFCA4A9</key>
 		<dict>
@@ -3201,6 +3915,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>7E0F64A8-12DD-45C4-98B5-D5D9C46D0A84</string>
+		</dict>
+		<key>7EDEE645-3BA4-4DFE-981D-6B1B8CA0044F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7EDEE645-3BA4-4DFE-981D-6B1B8CA0044F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690278.23255599</real>
+			<key>timeStoppedRecording</key>
+			<real>665690278.647614</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>7EDEE645-3BA4-4DFE-981D-6B1B8CA0044F</string>
 		</dict>
 		<key>8097293C-2A3D-4C28-B9DB-0D7097EC3FFD</key>
 		<dict>
@@ -3406,6 +4154,40 @@
 			<key>uniqueIdentifier</key>
 			<string>892EB5E7-220C-4274-A08F-B98D51EDAB5C</string>
 		</dict>
+		<key>8A094B34-8A7D-41F7-B8D9-2C1713D87AE3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8A094B34-8A7D-41F7-B8D9-2C1713D87AE3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664036.27927005</real>
+			<key>timeStoppedRecording</key>
+			<real>665664036.48875201</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>8A094B34-8A7D-41F7-B8D9-2C1713D87AE3</string>
+		</dict>
 		<key>8B24DAFF-E5FD-4795-8AA9-2868A160DDB4</key>
 		<dict>
 			<key>className</key>
@@ -3439,6 +4221,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>8B24DAFF-E5FD-4795-8AA9-2868A160DDB4</string>
+		</dict>
+		<key>8B60C9D2-526B-4445-AE7B-BCC44EB47934</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8B60C9D2-526B-4445-AE7B-BCC44EB47934.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666674.11640596</real>
+			<key>timeStoppedRecording</key>
+			<real>665666674.32123399</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>8B60C9D2-526B-4445-AE7B-BCC44EB47934</string>
 		</dict>
 		<key>8BA0509D-7506-4685-8262-4C4A2D845E2C</key>
 		<dict>
@@ -3576,6 +4392,40 @@
 			<key>uniqueIdentifier</key>
 			<string>8D26EC8E-D0AD-4584-94D0-7399394B6999</string>
 		</dict>
+		<key>8D50DDAB-38BB-4B7A-9DE1-4EB0CA46D7D2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8D50DDAB-38BB-4B7A-9DE1-4EB0CA46D7D2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666753.55208397</real>
+			<key>timeStoppedRecording</key>
+			<real>665666753.75869906</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>8D50DDAB-38BB-4B7A-9DE1-4EB0CA46D7D2</string>
+		</dict>
 		<key>8E2D4F16-9A02-48EB-A3B4-D9208C85BBFC</key>
 		<dict>
 			<key>className</key>
@@ -3677,6 +4527,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>8EA181E6-29C0-4391-9050-9515E6608917</string>
+		</dict>
+		<key>91E4AC3C-1ED8-432B-8927-963249204294</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>91E4AC3C-1ED8-432B-8927-963249204294.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690349.86213696</real>
+			<key>timeStoppedRecording</key>
+			<real>665690350.16388202</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>91E4AC3C-1ED8-432B-8927-963249204294</string>
 		</dict>
 		<key>932B8EBD-07C9-44D8-89B2-B08BE974A20B</key>
 		<dict>
@@ -3814,6 +4698,74 @@
 			<key>uniqueIdentifier</key>
 			<string>94201C9F-A990-4E97-A166-866C2A6EC977</string>
 		</dict>
+		<key>9490AE61-F41B-45E6-A233-345C9B27FA19</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9490AE61-F41B-45E6-A233-345C9B27FA19.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690464.206833</real>
+			<key>timeStoppedRecording</key>
+			<real>665690464.68456697</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>9490AE61-F41B-45E6-A233-345C9B27FA19</string>
+		</dict>
+		<key>9532DE2F-411E-47C8-9B12-5F5378E1F368</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9532DE2F-411E-47C8-9B12-5F5378E1F368.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665663948.80262196</real>
+			<key>timeStoppedRecording</key>
+			<real>665663949.02390397</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>9532DE2F-411E-47C8-9B12-5F5378E1F368</string>
+		</dict>
 		<key>95C0A3F2-04F5-4942-B8F5-599BCBCAE36E</key>
 		<dict>
 			<key>className</key>
@@ -3881,6 +4833,74 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>96D83478-1AB4-4695-8F18-DF8207D2943C</string>
+		</dict>
+		<key>975B20ED-0950-45C9-A90E-A9C06A21107A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>975B20ED-0950-45C9-A90E-A9C06A21107A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690978.48138797</real>
+			<key>timeStoppedRecording</key>
+			<real>665690979.03354704</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>975B20ED-0950-45C9-A90E-A9C06A21107A</string>
+		</dict>
+		<key>97F1C631-8104-41BD-91CB-2A40AD0B8059</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>97F1C631-8104-41BD-91CB-2A40AD0B8059.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665663157.771644</real>
+			<key>timeStoppedRecording</key>
+			<real>665663157.975214</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>97F1C631-8104-41BD-91CB-2A40AD0B8059</string>
 		</dict>
 		<key>9A124984-7354-49C7-ADCC-9B88B51D10F5</key>
 		<dict>
@@ -4052,6 +5072,108 @@
 			<key>uniqueIdentifier</key>
 			<string>9DEB83F4-50CC-4C74-A7F7-0A4F6D3BD5B9</string>
 		</dict>
+		<key>9F33A97C-7DD3-4BD7-8DCF-9471A99ED5CD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9F33A97C-7DD3-4BD7-8DCF-9471A99ED5CD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690498.01951301</real>
+			<key>timeStoppedRecording</key>
+			<real>665690498.25345194</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>9F33A97C-7DD3-4BD7-8DCF-9471A99ED5CD</string>
+		</dict>
+		<key>9F59EC43-6A7E-498D-8FDA-F97B69BB1F4D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9F59EC43-6A7E-498D-8FDA-F97B69BB1F4D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666284.13572896</real>
+			<key>timeStoppedRecording</key>
+			<real>665666284.34307098</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>9F59EC43-6A7E-498D-8FDA-F97B69BB1F4D</string>
+		</dict>
+		<key>9F9ABDDB-4044-47DE-BAED-A40BFB7745A5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9F9ABDDB-4044-47DE-BAED-A40BFB7745A5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666297.95395398</real>
+			<key>timeStoppedRecording</key>
+			<real>665666298.15393603</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>9F9ABDDB-4044-47DE-BAED-A40BFB7745A5</string>
+		</dict>
 		<key>9FFDB404-3A06-42D3-B325-4D398BC81916</key>
 		<dict>
 			<key>className</key>
@@ -4188,6 +5310,40 @@
 			<key>uniqueIdentifier</key>
 			<string>A0DE0357-8E9A-4A81-9415-77722D0DFDBE</string>
 		</dict>
+		<key>A40C2793-8428-40CC-BF81-ED846B135E4F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A40C2793-8428-40CC-BF81-ED846B135E4F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690453.324615</real>
+			<key>timeStoppedRecording</key>
+			<real>665690453.62122405</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>A40C2793-8428-40CC-BF81-ED846B135E4F</string>
+		</dict>
 		<key>A4B10532-0A9B-47E8-A836-57B4AEEA8C2A</key>
 		<dict>
 			<key>className</key>
@@ -4255,6 +5411,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>A6246126-B4D5-4F4C-98DC-717B7957789E</string>
+		</dict>
+		<key>AA338F4A-9145-46A5-BB2A-D358D666D17F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA338F4A-9145-46A5-BB2A-D358D666D17F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666489.60091603</real>
+			<key>timeStoppedRecording</key>
+			<real>665666490.02517605</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>AA338F4A-9145-46A5-BB2A-D358D666D17F</string>
 		</dict>
 		<key>AA795E9C-679D-4F5D-B6BB-D9B82A7874DB</key>
 		<dict>
@@ -4493,6 +5683,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>B5103AF6-6F16-4958-ACA1-902932A084F2</string>
+		</dict>
+		<key>B64FAB72-DD0C-4073-ADDB-66DB065DC7D5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B64FAB72-DD0C-4073-ADDB-66DB065DC7D5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664433.21725798</real>
+			<key>timeStoppedRecording</key>
+			<real>665664433.61779904</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>B64FAB72-DD0C-4073-ADDB-66DB065DC7D5</string>
 		</dict>
 		<key>B685ACC1-3F4E-4521-B7AA-BF8798E3E01B</key>
 		<dict>
@@ -4834,6 +6058,40 @@
 			<key>uniqueIdentifier</key>
 			<string>C15955FE-3B99-470D-8E1B-DCA649183243</string>
 		</dict>
+		<key>C1D5C4FC-8620-46C9-9868-3E80B7E08BAD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C1D5C4FC-8620-46C9-9868-3E80B7E08BAD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664067.937554</real>
+			<key>timeStoppedRecording</key>
+			<real>665664068.15621698</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>C1D5C4FC-8620-46C9-9868-3E80B7E08BAD</string>
+		</dict>
 		<key>C1E462D0-2AE3-4978-8178-77CE82D07D68</key>
 		<dict>
 			<key>className</key>
@@ -4867,6 +6125,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>C1E462D0-2AE3-4978-8178-77CE82D07D68</string>
+		</dict>
+		<key>C2B16AFA-129E-472B-901D-425214DC0F5B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C2B16AFA-129E-472B-901D-425214DC0F5B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665663990.98238003</real>
+			<key>timeStoppedRecording</key>
+			<real>665663991.19315803</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>C2B16AFA-129E-472B-901D-425214DC0F5B</string>
 		</dict>
 		<key>C3B3250E-6C60-4A59-8854-C6B2F23198BA</key>
 		<dict>
@@ -5514,6 +6806,40 @@
 			<key>uniqueIdentifier</key>
 			<string>D1D983CA-2396-46D1-B449-22BCD5C2FB33</string>
 		</dict>
+		<key>D230A9A4-43DC-41AA-A1C1-96DCDBA622F9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D230A9A4-43DC-41AA-A1C1-96DCDBA622F9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664275.07450294</real>
+			<key>timeStoppedRecording</key>
+			<real>665664275.27928102</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>D230A9A4-43DC-41AA-A1C1-96DCDBA622F9</string>
+		</dict>
 		<key>D3791567-CB43-40FD-B198-E40C9327E411</key>
 		<dict>
 			<key>className</key>
@@ -5615,6 +6941,74 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>D6605960-BD99-479E-854F-7A01F283FF55</string>
+		</dict>
+		<key>DB3623F4-3577-476D-8B30-CD3EE9189AA1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DB3623F4-3577-476D-8B30-CD3EE9189AA1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665691057.25021005</real>
+			<key>timeStoppedRecording</key>
+			<real>665691057.64793003</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>DB3623F4-3577-476D-8B30-CD3EE9189AA1</string>
+		</dict>
+		<key>DD172677-1CEC-4D6A-B001-F72E7AF8EC88</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DD172677-1CEC-4D6A-B001-F72E7AF8EC88.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690262.29260397</real>
+			<key>timeStoppedRecording</key>
+			<real>665690263.30219102</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>DD172677-1CEC-4D6A-B001-F72E7AF8EC88</string>
 		</dict>
 		<key>DD538488-D64C-46F3-8D9E-0986784D1D06</key>
 		<dict>
@@ -5786,6 +7180,40 @@
 			<key>uniqueIdentifier</key>
 			<string>DF4C6A0C-207D-4BDB-8264-C66F12479BCF</string>
 		</dict>
+		<key>E160C44B-05D3-438F-BA9A-11C91327678F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E160C44B-05D3-438F-BA9A-11C91327678F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666715.30798995</real>
+			<key>timeStoppedRecording</key>
+			<real>665666715.51971197</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>E160C44B-05D3-438F-BA9A-11C91327678F</string>
+		</dict>
 		<key>E3D462C2-9D11-46C3-A1A0-9D8CBB7073CF</key>
 		<dict>
 			<key>className</key>
@@ -5922,6 +7350,74 @@
 			<key>uniqueIdentifier</key>
 			<string>E6BED4AD-405A-4C89-B7F1-3D185DB4C1C9</string>
 		</dict>
+		<key>E6BF17B3-B219-4967-AE82-4F33DE8D6D32</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E6BF17B3-B219-4967-AE82-4F33DE8D6D32.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666776.23992395</real>
+			<key>timeStoppedRecording</key>
+			<real>665666776.428321</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>E6BF17B3-B219-4967-AE82-4F33DE8D6D32</string>
+		</dict>
+		<key>E88340C3-70DD-4AAF-BA3E-803197DC39FA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E88340C3-70DD-4AAF-BA3E-803197DC39FA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666811.13810301</real>
+			<key>timeStoppedRecording</key>
+			<real>665666811.33973098</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>E88340C3-70DD-4AAF-BA3E-803197DC39FA</string>
+		</dict>
 		<key>E88736E2-2681-495E-95B8-F0056EBD53DE</key>
 		<dict>
 			<key>className</key>
@@ -5955,6 +7451,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>E88736E2-2681-495E-95B8-F0056EBD53DE</string>
+		</dict>
+		<key>E8F3C831-6B2A-4F76-9A70-E1BDEF0DC5FE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E8F3C831-6B2A-4F76-9A70-E1BDEF0DC5FE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690651.64434505</real>
+			<key>timeStoppedRecording</key>
+			<real>665690651.87143505</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>E8F3C831-6B2A-4F76-9A70-E1BDEF0DC5FE</string>
 		</dict>
 		<key>EDB0A692-996C-4E93-A91D-9F2D4D99CA5C</key>
 		<dict>
@@ -6092,6 +7622,40 @@
 			<key>uniqueIdentifier</key>
 			<string>F22C797E-8DF6-40AC-8234-2E18DFD03BDB</string>
 		</dict>
+		<key>F3EB8CAC-564F-46FA-AC5C-4CBECD008F0A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F3EB8CAC-564F-46FA-AC5C-4CBECD008F0A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664373.93656301</real>
+			<key>timeStoppedRecording</key>
+			<real>665664374.17005098</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>F3EB8CAC-564F-46FA-AC5C-4CBECD008F0A</string>
+		</dict>
 		<key>F4C4E982-C0F0-4148-87DC-40D52CA42EA4</key>
 		<dict>
 			<key>className</key>
@@ -6125,6 +7689,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>F4C4E982-C0F0-4148-87DC-40D52CA42EA4</string>
+		</dict>
+		<key>F4DFAD20-78EB-4796-A169-3331E96CCFAB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F4DFAD20-78EB-4796-A169-3331E96CCFAB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664751.37063301</real>
+			<key>timeStoppedRecording</key>
+			<real>665664752.03856003</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>F4DFAD20-78EB-4796-A169-3331E96CCFAB</string>
 		</dict>
 		<key>F53DEC0B-44AE-4807-A009-5CB521267824</key>
 		<dict>
@@ -6194,6 +7792,40 @@
 			<key>uniqueIdentifier</key>
 			<string>F8D5501B-52AE-4B78-9513-2050C49F402C</string>
 		</dict>
+		<key>F9C7C5A5-2425-4FB9-AB9D-CA34A0D247C5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F9C7C5A5-2425-4FB9-AB9D-CA34A0D247C5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666101.77500999</real>
+			<key>timeStoppedRecording</key>
+			<real>665666102.49242103</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>F9C7C5A5-2425-4FB9-AB9D-CA34A0D247C5</string>
+		</dict>
 		<key>FA15D625-B7D8-4C68-B712-50AC8D9173A6</key>
 		<dict>
 			<key>className</key>
@@ -6227,6 +7859,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>FA15D625-B7D8-4C68-B712-50AC8D9173A6</string>
+		</dict>
+		<key>FA6CE170-95BF-4805-BF9D-8A11512BBF83</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FA6CE170-95BF-4805-BF9D-8A11512BBF83.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665690603.752069</real>
+			<key>timeStoppedRecording</key>
+			<real>665690603.98997104</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>FA6CE170-95BF-4805-BF9D-8A11512BBF83</string>
 		</dict>
 		<key>FD7D25AA-E8E9-49DE-84F4-44B54847AEC4</key>
 		<dict>
@@ -6295,6 +7961,40 @@
 			<string>Build CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>FDCCFD14-CF4D-45AA-8CBD-EABC95C1FF8A</string>
+		</dict>
+		<key>FDDA6B76-D154-4F43-969B-A71D5E27C9C1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FDDA6B76-D154-4F43-969B-A71D5E27C9C1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664588.37783504</real>
+			<key>timeStoppedRecording</key>
+			<real>665664590.01437795</real>
+			<key>title</key>
+			<string>Build CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>FDDA6B76-D154-4F43-969B-A71D5E27C9C1</string>
 		</dict>
 		<key>FDF9D6E3-B189-4FE6-9583-E082F2DC3E10</key>
 		<dict>

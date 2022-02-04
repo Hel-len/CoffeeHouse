@@ -12,10 +12,9 @@ class CoffeeSelectionService {
     var coffeeList: [CoffeeType] = []
 
     func createMenu() -> [CoffeeType] {
-        coffeeList.append(StandardCoffeeFactory.standardCoffeeFactory.makeCoffee(type: .custom))
-        coffeeList.append(StandardCoffeeFactory.standardCoffeeFactory.makeCoffee(type: .cappuchino))
-        coffeeList.append(StandardCoffeeFactory.standardCoffeeFactory.makeCoffee(type: .latte))
-        coffeeList.append(StandardCoffeeFactory.standardCoffeeFactory.makeCoffee(type: .espresso))
+        coffeeList.append(CoffeeFactory().makeCoffee(type: .cappuchino))
+        coffeeList.append(CoffeeFactory().makeCoffee(type: .latte))
+        coffeeList.append(CoffeeFactory().makeCoffee(type: .espresso))
         return coffeeList
     }
 }

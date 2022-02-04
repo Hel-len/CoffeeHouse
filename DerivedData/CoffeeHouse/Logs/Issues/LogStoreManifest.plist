@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>481CE093-39C3-47E0-BEB6-F2DAB0AD8530</key>
+		<key>261CCBA9-A879-435B-8ADB-9390BC710144</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>481CE093-39C3-47E0-BEB6-F2DAB0AD8530.xcactivitylog</string>
+			<string>261CCBA9-A879-435B-8ADB-9390BC710144.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>signature</key>
 			<string>CoffeeHouse-ccluwubxjaeseagoifkjzugwavpk</string>
 			<key>timeStartedRecording</key>
-			<real>665660880.92776299</real>
+			<real>665694499.63197899</real>
 			<key>timeStoppedRecording</key>
-			<real>665660883.10875905</real>
+			<real>665694500.06336498</real>
 			<key>title</key>
 			<string>Build target CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
-			<string>481CE093-39C3-47E0-BEB6-F2DAB0AD8530</string>
+			<string>261CCBA9-A879-435B-8ADB-9390BC710144</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

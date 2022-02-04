@@ -20,6 +20,10 @@
 		<data>
 		U0x8EM0781fCPb62BbZIXKeDlZ4=
 		</data>
+		<key>DessertSelectionViewController.nib</key>
+		<data>
+		oa+SPrSei+U1feYgyutkDmc+Oz8=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		CRvp7aO8dr9+0PizhMWCwaIlK0M=
@@ -61,6 +65,13 @@
 			<key>hash2</key>
 			<data>
 			cWq7q+iQcmpSoaFGecnyPdKFEPFwRD3slgUmxFADkVs=
+			</data>
+		</dict>
+		<key>DessertSelectionViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			56ahsNNfmiugvjeqoLg8HB/pEkh7xgVRKecuow+nsVU=
 			</data>
 		</dict>
 		<key>Nasalization.otf</key>

@@ -190,6 +190,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import CoreGraphics;
 @import Foundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -221,17 +222,30 @@ SWIFT_CLASS("_TtC11CoffeeHouse11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSCoder;
 @class NSString;
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC11CoffeeHouse29CoffeeSelectionViewController")
 @interface CoffeeSelectionViewController : UIViewController
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+
+SWIFT_CLASS("_TtC11CoffeeHouse22DessertSelectionRouter")
+@interface DessertSelectionRouter : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11CoffeeHouse30DessertSelectionViewController")
+@interface DessertSelectionViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
 
 
 SWIFT_CLASS("_TtC11CoffeeHouse27MainInterfaceViewController")

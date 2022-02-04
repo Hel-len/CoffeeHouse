@@ -1298,6 +1298,40 @@
 			<key>uniqueIdentifier</key>
 			<string>5D11289D-E0CA-4B30-ACC8-916F0496B032</string>
 		</dict>
+		<key>637E4A2F-642E-4110-A733-CFA714F210C6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>637E4A2F-642E-4110-A733-CFA714F210C6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665653950.33898795</real>
+			<key>timeStoppedRecording</key>
+			<real>665664433.34664798</real>
+			<key>title</key>
+			<string>Run CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>637E4A2F-642E-4110-A733-CFA714F210C6</string>
+		</dict>
 		<key>65B25D73-7F49-4D46-AD0F-70CAEB8EFF44</key>
 		<dict>
 			<key>className</key>
@@ -1365,6 +1399,40 @@
 			<string>Run CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>66471F35-5A12-4686-A2F6-0F63D71C0792</string>
+		</dict>
+		<key>6B251494-F7BD-4500-9719-1A7AE1BF2DC8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6B251494-F7BD-4500-9719-1A7AE1BF2DC8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665666319.18927097</real>
+			<key>timeStoppedRecording</key>
+			<real>665694499.80621302</real>
+			<key>title</key>
+			<string>Run CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>6B251494-F7BD-4500-9719-1A7AE1BF2DC8</string>
 		</dict>
 		<key>789A0635-6C16-44E5-8468-370424E449E3</key>
 		<dict>
@@ -2929,6 +2997,40 @@
 			<string>Run CoffeeHouse</string>
 			<key>uniqueIdentifier</key>
 			<string>ECAD5A40-88E1-4610-8ED7-C5C318D47A10</string>
+		</dict>
+		<key>EF1762A9-C3D7-4321-9049-DCF6BC012F42</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EF1762A9-C3D7-4321-9049-DCF6BC012F42.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoffeeHouse project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoffeeHouse</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run CoffeeHouse</string>
+			<key>timeStartedRecording</key>
+			<real>665664590.01609898</real>
+			<key>timeStoppedRecording</key>
+			<real>665666298.17085505</real>
+			<key>title</key>
+			<string>Run CoffeeHouse</string>
+			<key>uniqueIdentifier</key>
+			<string>EF1762A9-C3D7-4321-9049-DCF6BC012F42</string>
 		</dict>
 		<key>F33A4655-2E46-4AA6-BE53-CAB949B00051</key>
 		<dict>

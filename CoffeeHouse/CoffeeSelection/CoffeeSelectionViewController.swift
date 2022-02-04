@@ -18,69 +18,45 @@ protocol CoffeeSelectionDisplayLogic: AnyObject {
     func displayData(viewModel: CoffeeSelection.Model.ViewModel.ViewModelData)
 }
 
-class CoffeeSelectionViewController: UIViewController, CoffeeSelectionDisplayLogic, TableManager {
+final class CoffeeSelectionViewController: UIViewController, CoffeeSelectionDisplayLogic, TableManager, SelectionViewController {
 
     var cellId = "coffeeCell"
     var interactor: CoffeeSelectionBusinessLogic?
     var coffeeType: CoffeeType? = nil
 
-    private var feedViewModel = TableViewModel.init(sections: [])
-    private var coffeeTableView = UITableView()
+    let views = SelectionView()
 
-    private let backgroundImage: UIImageView = {
-        let image = UIImageView()
-        image.image = UIImage(named: "coffee")
-        image.translatesAutoresizingMaskIntoConstraints = false
-        image.contentMode = .scaleAspectFill
-        return image
-    }()
-
-    private let greetingLabel: UILabel = {
-        let label = UILabel()
-        label.text = "What kind of coffee do you prefer?"
-        label.textColor = .white
-        label.font = UIFont(name: "Nasalization", size: 30)
-        label.numberOfLines = 2
-        label.textAlignment = .center
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
-
-    private var coffeeView: UIImageView = {
-        let image = UIImageView()
-        image.layer.cornerRadius = 30
-        image.clipsToBounds = true
-        image.backgroundColor = .white
-        image.translatesAutoresizingMaskIntoConstraints = false
-        image.isHidden = true
-        return image
-    }()
-
-    private var coffeeLabel: UILabel = {
-        let label = UILabel()
-        label.textColor = .black
-        label.backgroundColor = UIColor(white: 1, alpha: 0.5)
-        label.textAlignment = .center
-        label.isHidden = true
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
+    var tableViewModel = TableViewModel.init(sections: [])
+    var tableView = UITableView()
+    var backgroundImage: UIImageView
+    var greetingLabel: UILabel
+    var selectedView: UIImageView
+    var selectedLabel: UILabel
 
     // MARK: Object lifecycle
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+    init(image: String, greeting: String, nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+
+        self.backgroundImage = views.background
+        self.backgroundImage.image = UIImage(named: image)
+        self.greetingLabel = views.greeting
+        self.greetingLabel.text = greeting
+        self.selectedView = views.coffeeView
+        self.selectedLabel = views.coffeeLabel
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         setup()
     }
     
     required init?(coder aDecoder: NSCoder) {
+        self.backgroundImage = views.background
+        self.greetingLabel = views.greeting
+        self.selectedView = views.coffeeView
+        self.selectedLabel = views.coffeeLabel
         super.init(coder: aDecoder)
         setup()
     }
     
     // MARK: Setup
-    
-    private func setup() {
+    func setup() {
         let viewController        = self
         let interactor            = CoffeeSelectionInteractor()
         let presenter             = CoffeeSelectionPresenter()
@@ -90,10 +66,8 @@ class CoffeeSelectionViewController: UIViewController, CoffeeSelectionDisplayLog
     }
 
     // MARK: View lifecycle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = #colorLiteral(red: 0.3047590256, green: 0.1710596979, blue: 0, alpha: 1)
         setupViews()
         interactor?.makeRequest(request: CoffeeSelection.Model.Request.RequestType.getFeed)
     }
@@ -102,60 +76,34 @@ class CoffeeSelectionViewController: UIViewController, CoffeeSelectionDisplayLog
         switch viewModel {
 
         case .displayFeed(let viewModel):
-            self.feedViewModel = viewModel
+            self.tableViewModel = viewModel
             setupTableView()
-            coffeeTableView.reloadData()
+            tableView.reloadData()
         case .makeCoffee(let viewModel):
-            self.coffeeView.image = UIImage(named: viewModel.image)
-            self.coffeeLabel.text = "\(viewModel.name)"
-            coffeeView.isHidden = false
-            coffeeLabel.isHidden = false
+            self.selectedView.image = UIImage(named: viewModel.image)
+            self.selectedLabel.text = "\(viewModel.name)"
+            selectedView.isHidden = false
+            selectedLabel.isHidden = false
         }
     }
 
     func setupTableView() {
-        coffeeTableView = TableViewManager(view: view, viewModel: feedViewModel, cellId: cellId, invoking: self)
+        tableView = TableViewManager(view: view, viewModel: tableViewModel, cellId: cellId, invoking: self)
     }
 
     func rowTapped(row: IndexPath) {
         interactor?.makeRequest(request: CoffeeSelection.Model.Request.RequestType.getCoffee(index: row))
     }
 
-
-    private func setupViews() {
+    func setupViews() {
         view.addSubview(backgroundImage)
         view.addSubview(greetingLabel)
-        view.addSubview(coffeeTableView)
-        view.addSubview(coffeeView)
-        coffeeView.addSubview(coffeeLabel)
-        setConstraints()
+        view.addSubview(tableView)
+        view.addSubview(selectedView)
+        selectedView.addSubview(selectedLabel)
+        setConstraints(superView: view)
     }
 
-    func createCoffee(_ type: CoffeeTypes) {
-        let coffee = StandardCoffeeFactory.standardCoffeeFactory.makeCoffee(type: type)
-    }
-}
-
-extension CoffeeSelectionViewController {
-    private func setConstraints() {
-        backgroundImage.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        backgroundImage.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        backgroundImage.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        backgroundImage.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-
-        greetingLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
-        greetingLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
-        greetingLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 60).isActive = true
-        greetingLabel.heightAnchor.constraint(equalToConstant: 130).isActive = true
-
-        coffeeView.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true
-        coffeeView.widthAnchor.constraint(equalToConstant: 200).isActive = true
-        coffeeView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50).isActive = true
-        coffeeView.heightAnchor.constraint(equalToConstant: 200).isActive = true
-
-        coffeeLabel.centerXAnchor.constraint(equalTo: coffeeView.centerXAnchor, constant: 0).isActive = true
-        coffeeLabel.widthAnchor.constraint(equalToConstant: 120).isActive = true
-        coffeeLabel.bottomAnchor.constraint(equalTo: coffeeView.bottomAnchor, constant: -10).isActive = true
-        coffeeLabel.heightAnchor.constraint(equalToConstant: 30).isActive = true
+    func setConstraints() {
     }
 }

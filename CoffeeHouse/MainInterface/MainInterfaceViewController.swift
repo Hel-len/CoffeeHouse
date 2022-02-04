@@ -73,7 +73,7 @@ class MainInterfaceViewController: UIViewController, MainInterfaceDisplayLogic {
     }
 
     @objc private func coffeeSelection() {
-        let coffeeSelectionViewController = CoffeeSelectionViewController()
+        let coffeeSelectionViewController = CoffeeSelectionViewController(image: "coffee", greeting: "", nibName: nil, bundle: nil)
         navigationController?.pushViewController(coffeeSelectionViewController, animated: true)
     }
 

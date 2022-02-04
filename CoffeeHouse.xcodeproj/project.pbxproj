@@ -23,13 +23,21 @@
 		BFF13DF927ABF95A00EA20AB /* CoffeeSelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13DF227ABF95A00EA20AB /* CoffeeSelectionInteractor.swift */; };
 		BFF13DFE27AC2A7500EA20AB /* Nasalization.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFF13DFD27AC2A7500EA20AB /* Nasalization.otf */; };
 		BFF13E0027AC2EBD00EA20AB /* CoffeeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13DFF27AC2EBD00EA20AB /* CoffeeTypes.swift */; };
-		BFF13E0227AC30C200EA20AB /* Cappuchino.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E0127AC30C200EA20AB /* Cappuchino.swift */; };
-		BFF13E0427AC312200EA20AB /* Latte.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E0327AC312200EA20AB /* Latte.swift */; };
-		BFF13E0727AC315400EA20AB /* Espresso.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E0627AC315400EA20AB /* Espresso.swift */; };
-		BFF13E0927AC319B00EA20AB /* StandardCoffeeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E0827AC319B00EA20AB /* StandardCoffeeFactory.swift */; };
+		BFF13E0927AC319B00EA20AB /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E0827AC319B00EA20AB /* Factories.swift */; };
 		BFF13E0C27AC34EE00EA20AB /* TableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E0B27AC34EE00EA20AB /* TableManager.swift */; };
 		BFF13E0E27AC353900EA20AB /* TableViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E0D27AC353900EA20AB /* TableViewModels.swift */; };
-		BFF13E1127AC629800EA20AB /* CustomCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E1027AC629800EA20AB /* CustomCoffee.swift */; };
+		BFF13E1427AD31A400EA20AB /* ViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E1327AD31A400EA20AB /* ViewControllerModel.swift */; };
+		BFF13E1D27AD329100EA20AB /* DessertSelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E1627AD329100EA20AB /* DessertSelectionPresenter.swift */; };
+		BFF13E1E27AD329100EA20AB /* DessertSelectionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E1727AD329100EA20AB /* DessertSelectionWorker.swift */; };
+		BFF13E1F27AD329100EA20AB /* DessertSelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E1827AD329100EA20AB /* DessertSelectionRouter.swift */; };
+		BFF13E2027AD329100EA20AB /* DessertSelectionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E1927AD329100EA20AB /* DessertSelectionModels.swift */; };
+		BFF13E2127AD329100EA20AB /* DessertSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E1A27AD329100EA20AB /* DessertSelectionViewController.swift */; };
+		BFF13E2227AD329100EA20AB /* DessertSelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E1B27AD329100EA20AB /* DessertSelectionInteractor.swift */; };
+		BFF13E2327AD329100EA20AB /* DessertSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF13E1C27AD329100EA20AB /* DessertSelectionViewController.xib */; };
+		BFF13E2527AD365800EA20AB /* SelectionViewControllerCommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E2427AD365800EA20AB /* SelectionViewControllerCommonViews.swift */; };
+		BFF13E2827AD9E6500EA20AB /* FoodFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E2727AD9E6500EA20AB /* FoodFactory.swift */; };
+		BFF13E2B27ADA41E00EA20AB /* DessertTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E2A27ADA41E00EA20AB /* DessertTypes.swift */; };
+		BFF13E2D27ADAF6B00EA20AB /* PizzaTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13E2C27ADAF6B00EA20AB /* PizzaTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,13 +59,21 @@
 		BFF13DF227ABF95A00EA20AB /* CoffeeSelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeSelectionInteractor.swift; sourceTree = "<group>"; };
 		BFF13DFD27AC2A7500EA20AB /* Nasalization.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nasalization.otf; sourceTree = "<group>"; };
 		BFF13DFF27AC2EBD00EA20AB /* CoffeeTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTypes.swift; sourceTree = "<group>"; };
-		BFF13E0127AC30C200EA20AB /* Cappuchino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cappuchino.swift; sourceTree = "<group>"; };
-		BFF13E0327AC312200EA20AB /* Latte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latte.swift; sourceTree = "<group>"; };
-		BFF13E0627AC315400EA20AB /* Espresso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espresso.swift; sourceTree = "<group>"; };
-		BFF13E0827AC319B00EA20AB /* StandardCoffeeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardCoffeeFactory.swift; sourceTree = "<group>"; };
+		BFF13E0827AC319B00EA20AB /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 		BFF13E0B27AC34EE00EA20AB /* TableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableManager.swift; sourceTree = "<group>"; };
 		BFF13E0D27AC353900EA20AB /* TableViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModels.swift; sourceTree = "<group>"; };
-		BFF13E1027AC629800EA20AB /* CustomCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCoffee.swift; sourceTree = "<group>"; };
+		BFF13E1327AD31A400EA20AB /* ViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerModel.swift; sourceTree = "<group>"; };
+		BFF13E1627AD329100EA20AB /* DessertSelectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertSelectionPresenter.swift; sourceTree = "<group>"; };
+		BFF13E1727AD329100EA20AB /* DessertSelectionWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertSelectionWorker.swift; sourceTree = "<group>"; };
+		BFF13E1827AD329100EA20AB /* DessertSelectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertSelectionRouter.swift; sourceTree = "<group>"; };
+		BFF13E1927AD329100EA20AB /* DessertSelectionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertSelectionModels.swift; sourceTree = "<group>"; };
+		BFF13E1A27AD329100EA20AB /* DessertSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertSelectionViewController.swift; sourceTree = "<group>"; };
+		BFF13E1B27AD329100EA20AB /* DessertSelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertSelectionInteractor.swift; sourceTree = "<group>"; };
+		BFF13E1C27AD329100EA20AB /* DessertSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DessertSelectionViewController.xib; sourceTree = "<group>"; };
+		BFF13E2427AD365800EA20AB /* SelectionViewControllerCommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewControllerCommonViews.swift; sourceTree = "<group>"; };
+		BFF13E2727AD9E6500EA20AB /* FoodFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFactory.swift; sourceTree = "<group>"; };
+		BFF13E2A27ADA41E00EA20AB /* DessertTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertTypes.swift; sourceTree = "<group>"; };
+		BFF13E2C27ADAF6B00EA20AB /* PizzaTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +106,15 @@
 		BFF13DC827ABF85C00EA20AB /* CoffeeHouse */ = {
 			isa = PBXGroup;
 			children = (
-				BFF13E0A27AC34DF00EA20AB /* Managers */,
+				BFF13E2627AD9E1100EA20AB /* FoodFactory */,
 				BFF13DFC27AC2A6700EA20AB /* Fonts */,
+				BFF13E1227AD317F00EA20AB /* FoodViewControllerFactory */,
+				BFF13E0A27AC34DF00EA20AB /* Managers */,
 				BFF13DDE27ABF91300EA20AB /* MainInterface */,
 				BFF13DDD27ABF8E300EA20AB /* CoffeeSelection */,
-				BFF13DC927ABF85D00EA20AB /* AppDelegate.swift */,
+				BFF13E1527AD326400EA20AB /* DessertSelection */,
 				BFF13DCB27ABF85D00EA20AB /* SceneDelegate.swift */,
+				BFF13DC927ABF85D00EA20AB /* AppDelegate.swift */,
 				BFF13DD227ABF85D00EA20AB /* Assets.xcassets */,
 				BFF13DD427ABF85D00EA20AB /* LaunchScreen.storyboard */,
 				BFF13DD727ABF85D00EA20AB /* Info.plist */,
@@ -106,7 +125,6 @@
 		BFF13DDD27ABF8E300EA20AB /* CoffeeSelection */ = {
 			isa = PBXGroup;
 			children = (
-				BFF13DFB27AC28E400EA20AB /* Coffee Factory */,
 				BFF13DF127ABF95A00EA20AB /* CoffeeSelectionViewController.swift */,
 				BFF13DF227ABF95A00EA20AB /* CoffeeSelectionInteractor.swift */,
 				BFF13DED27ABF95A00EA20AB /* CoffeeSelectionPresenter.swift */,
@@ -131,8 +149,11 @@
 		BFF13DFB27AC28E400EA20AB /* Coffee Factory */ = {
 			isa = PBXGroup;
 			children = (
-				BFF13E0527AC314000EA20AB /* Coffe */,
-				BFF13E0827AC319B00EA20AB /* StandardCoffeeFactory.swift */,
+				BFF13E2727AD9E6500EA20AB /* FoodFactory.swift */,
+				BFF13E0827AC319B00EA20AB /* Factories.swift */,
+				BFF13DFF27AC2EBD00EA20AB /* CoffeeTypes.swift */,
+				BFF13E2A27ADA41E00EA20AB /* DessertTypes.swift */,
+				BFF13E2C27ADAF6B00EA20AB /* PizzaTypes.swift */,
 			);
 			path = "Coffee Factory";
 			sourceTree = "<group>";
@@ -145,25 +166,44 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		BFF13E0527AC314000EA20AB /* Coffe */ = {
-			isa = PBXGroup;
-			children = (
-				BFF13DFF27AC2EBD00EA20AB /* CoffeeTypes.swift */,
-				BFF13E0327AC312200EA20AB /* Latte.swift */,
-				BFF13E0127AC30C200EA20AB /* Cappuchino.swift */,
-				BFF13E0627AC315400EA20AB /* Espresso.swift */,
-				BFF13E1027AC629800EA20AB /* CustomCoffee.swift */,
-			);
-			path = Coffe;
-			sourceTree = "<group>";
-		};
 		BFF13E0A27AC34DF00EA20AB /* Managers */ = {
 			isa = PBXGroup;
 			children = (
 				BFF13E0B27AC34EE00EA20AB /* TableManager.swift */,
 				BFF13E0D27AC353900EA20AB /* TableViewModels.swift */,
+				BFF13E2427AD365800EA20AB /* SelectionViewControllerCommonViews.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		BFF13E1227AD317F00EA20AB /* FoodViewControllerFactory */ = {
+			isa = PBXGroup;
+			children = (
+				BFF13E1327AD31A400EA20AB /* ViewControllerModel.swift */,
+			);
+			path = FoodViewControllerFactory;
+			sourceTree = "<group>";
+		};
+		BFF13E1527AD326400EA20AB /* DessertSelection */ = {
+			isa = PBXGroup;
+			children = (
+				BFF13E1A27AD329100EA20AB /* DessertSelectionViewController.swift */,
+				BFF13E1B27AD329100EA20AB /* DessertSelectionInteractor.swift */,
+				BFF13E1627AD329100EA20AB /* DessertSelectionPresenter.swift */,
+				BFF13E1727AD329100EA20AB /* DessertSelectionWorker.swift */,
+				BFF13E1827AD329100EA20AB /* DessertSelectionRouter.swift */,
+				BFF13E1927AD329100EA20AB /* DessertSelectionModels.swift */,
+				BFF13E1C27AD329100EA20AB /* DessertSelectionViewController.xib */,
+			);
+			path = DessertSelection;
+			sourceTree = "<group>";
+		};
+		BFF13E2627AD9E1100EA20AB /* FoodFactory */ = {
+			isa = PBXGroup;
+			children = (
+				BFF13DFB27AC28E400EA20AB /* Coffee Factory */,
+			);
+			path = FoodFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +266,7 @@
 			files = (
 				BFF13DD627ABF85D00EA20AB /* LaunchScreen.storyboard in Resources */,
 				BFF13DD327ABF85D00EA20AB /* Assets.xcassets in Resources */,
+				BFF13E2327AD329100EA20AB /* DessertSelectionViewController.xib in Resources */,
 				BFF13DFE27AC2A7500EA20AB /* Nasalization.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,16 +278,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF13E1F27AD329100EA20AB /* DessertSelectionRouter.swift in Sources */,
 				BFF13E0E27AC353900EA20AB /* TableViewModels.swift in Sources */,
 				BFF13DF827ABF95A00EA20AB /* CoffeeSelectionViewController.swift in Sources */,
 				BFF13DF727ABF95A00EA20AB /* CoffeeSelectionModels.swift in Sources */,
+				BFF13E2227AD329100EA20AB /* DessertSelectionInteractor.swift in Sources */,
+				BFF13E2827AD9E6500EA20AB /* FoodFactory.swift in Sources */,
 				BFF13DE727ABF93E00EA20AB /* MainInterfaceWorker.swift in Sources */,
-				BFF13E1127AC629800EA20AB /* CustomCoffee.swift in Sources */,
-				BFF13E0927AC319B00EA20AB /* StandardCoffeeFactory.swift in Sources */,
+				BFF13E1D27AD329100EA20AB /* DessertSelectionPresenter.swift in Sources */,
+				BFF13E0927AC319B00EA20AB /* Factories.swift in Sources */,
 				BFF13DEB27ABF93E00EA20AB /* MainInterfaceInteractor.swift in Sources */,
+				BFF13E2D27ADAF6B00EA20AB /* PizzaTypes.swift in Sources */,
+				BFF13E2B27ADA41E00EA20AB /* DessertTypes.swift in Sources */,
 				BFF13DCA27ABF85D00EA20AB /* AppDelegate.swift in Sources */,
 				BFF13DE927ABF93E00EA20AB /* MainInterfaceModels.swift in Sources */,
-				BFF13E0427AC312200EA20AB /* Latte.swift in Sources */,
 				BFF13DF527ABF95A00EA20AB /* CoffeeSelectionWorker.swift in Sources */,
 				BFF13DF427ABF95A00EA20AB /* CoffeeSelectionPresenter.swift in Sources */,
 				BFF13DE627ABF93E00EA20AB /* MainInterfacePresenter.swift in Sources */,
@@ -254,9 +299,12 @@
 				BFF13E0027AC2EBD00EA20AB /* CoffeeTypes.swift in Sources */,
 				BFF13DCC27ABF85D00EA20AB /* SceneDelegate.swift in Sources */,
 				BFF13E0C27AC34EE00EA20AB /* TableManager.swift in Sources */,
-				BFF13E0727AC315400EA20AB /* Espresso.swift in Sources */,
+				BFF13E1427AD31A400EA20AB /* ViewControllerModel.swift in Sources */,
 				BFF13DEA27ABF93E00EA20AB /* MainInterfaceViewController.swift in Sources */,
-				BFF13E0227AC30C200EA20AB /* Cappuchino.swift in Sources */,
+				BFF13E2127AD329100EA20AB /* DessertSelectionViewController.swift in Sources */,
+				BFF13E2027AD329100EA20AB /* DessertSelectionModels.swift in Sources */,
+				BFF13E1E27AD329100EA20AB /* DessertSelectionWorker.swift in Sources */,
+				BFF13E2527AD365800EA20AB /* SelectionViewControllerCommonViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
