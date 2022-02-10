@@ -8,21 +8,15 @@
 
 import UIKit
 
-protocol CoffeeView {
-    var name: String { get }
-    var description: String { get }
-    var image: String { get }
-}
-
 protocol CoffeeSelectionDisplayLogic: AnyObject {
-    func displayData(viewModel: CoffeeSelection.Model.ViewModel.ViewModelData)
+    func displayData(viewModel: Selection.Model.ViewModel.ViewModelData)
 }
 
 final class CoffeeSelectionViewController: UIViewController, CoffeeSelectionDisplayLogic, TableManager, SelectionViewController {
 
     var cellId = "coffeeCell"
     var interactor: CoffeeSelectionBusinessLogic?
-    var coffeeType: CoffeeType? = nil
+    var coffeeType: FoodType? = nil
 
     let views = SelectionView()
 
@@ -69,17 +63,17 @@ final class CoffeeSelectionViewController: UIViewController, CoffeeSelectionDisp
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
-        interactor?.makeRequest(request: CoffeeSelection.Model.Request.RequestType.getFeed)
+        interactor?.makeRequest(request: Selection.Model.Request.RequestType.getFeed)
     }
     
-    func displayData(viewModel: CoffeeSelection.Model.ViewModel.ViewModelData) {
+    func displayData(viewModel: Selection.Model.ViewModel.ViewModelData) {
         switch viewModel {
 
         case .displayFeed(let viewModel):
             self.tableViewModel = viewModel
             setupTableView()
             tableView.reloadData()
-        case .makeCoffee(let viewModel):
+        case .currentFeed(let viewModel):
             self.selectedView.image = UIImage(named: viewModel.image)
             self.selectedLabel.text = "\(viewModel.name)"
             selectedView.isHidden = false
@@ -92,7 +86,7 @@ final class CoffeeSelectionViewController: UIViewController, CoffeeSelectionDisp
     }
 
     func rowTapped(row: IndexPath) {
-        interactor?.makeRequest(request: CoffeeSelection.Model.Request.RequestType.getCoffee(index: row))
+        interactor?.makeRequest(request: Selection.Model.Request.RequestType.getCurrentFeed(index: row))
     }
 
     func setupViews() {

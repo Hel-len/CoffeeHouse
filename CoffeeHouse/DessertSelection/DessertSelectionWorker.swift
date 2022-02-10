@@ -9,5 +9,13 @@
 import UIKit
 
 class DessertSelectionService {
+    var dessertList: [FoodType] = []
 
+    func createMenu() -> [FoodType] {
+        dessertList.append(DessertFactory().makeDessert(type: .bisquit))
+
+        dessertList.append(DessertFactory().makeDessert(type: .brownie))
+        dessertList.append(DessertFactory().makeDessert(type: .cake))
+        return dessertList
+    }
 }

@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+CoffeeHouse in CoffeeHouse, no dependencies
+CoffeeHouse in CoffeeHouse, no dependencies

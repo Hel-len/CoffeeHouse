@@ -7,16 +7,7 @@
 
 import Foundation
 
-protocol PizzaType: FoodType {
-    var name: String { get }
-    var description: String { get }
-    var image: String { get }
-
-    func start()
-    func getResult()
-}
-
-final class Margaritha: PizzaType {
+final class Margaritha: FoodType {
 
     var description = PizzaTypes.margaritha.description
     var name = PizzaTypes.margaritha.rawValue
@@ -31,7 +22,7 @@ final class Margaritha: PizzaType {
     }
 }
 
-final class Pepperoni: PizzaType {
+final class Pepperoni: FoodType {
 
     var description = PizzaTypes.pepperoni.description
     var name = PizzaTypes.pepperoni.rawValue
@@ -46,7 +37,7 @@ final class Pepperoni: PizzaType {
     }
 }
 
-final class Cheesy: PizzaType {
+final class Cheesy: FoodType {
     var description = PizzaTypes.cheesy.description
     var name = PizzaTypes.cheesy.rawValue
     var image = PizzaTypes.cheesy.image

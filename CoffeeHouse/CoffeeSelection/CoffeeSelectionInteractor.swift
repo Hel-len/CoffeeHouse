@@ -9,16 +9,16 @@
 import UIKit
 
 protocol CoffeeSelectionBusinessLogic {
-    func makeRequest(request: CoffeeSelection.Model.Request.RequestType)
+    func makeRequest(request: Selection.Model.Request.RequestType)
 }
 
 class CoffeeSelectionInteractor: CoffeeSelectionBusinessLogic {
 
     var presenter: CoffeeSelectionPresentationLogic?
     var service: CoffeeSelectionService?
-    private var coffeeList: [CoffeeType] = []
+    private var coffeeList: [FoodType] = []
 
-    func makeRequest(request: CoffeeSelection.Model.Request.RequestType) {
+    func makeRequest(request: Selection.Model.Request.RequestType) {
         if service == nil {
             service = CoffeeSelectionService()
         }
@@ -27,9 +27,9 @@ class CoffeeSelectionInteractor: CoffeeSelectionBusinessLogic {
         switch request {
 
         case .getFeed:
-            presenter?.presentData(response: CoffeeSelection.Model.Response.ResponseType.presentFeed(feed: coffeeList))
-        case .getCoffee(let index):
-            presenter?.presentData(response: CoffeeSelection.Model.Response.ResponseType.presentCoffee(type: coffeeList[index.row]))
+            presenter?.presentData(response: Selection.Model.Response.ResponseType.presentFeed(feed: coffeeList))
+        case .getCurrentFeed(let index):
+            presenter?.presentData(response: Selection.Model.Response.ResponseType.presentCurrentFeed(type: coffeeList[index.row]))
         }
     }
 }

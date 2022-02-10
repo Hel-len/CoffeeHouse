@@ -8,7 +8,7 @@
 import Foundation
 
 protocol Factory {
-    func makeFood(type: FoodTypes) -> FoodType
+    func makeFood(type: FoodTypes) -> FoodFactory
 }
 
 enum FoodTypes: String {
@@ -27,6 +27,7 @@ enum FoodTypes: String {
 
 protocol FoodType {
     var name: String { get }
+    var description: String { get }
     var image: String { get }
 
     func start()
@@ -34,12 +35,12 @@ protocol FoodType {
 }
 
 class FoodFactory: Factory {
-    func makeFood(type: FoodTypes) -> FoodType {
+    func makeFood(type: FoodTypes) -> FoodFactory {
         switch type {
 
-        case .coffee: return CoffeeFactory() as! FoodType
-        case .dessert: return DessertFactory() as! FoodType
-        case .pizza: return PizzaFactory() as! FoodType
+        case .coffee: return CoffeeFactory()
+        case .dessert: return DessertFactory()
+        case .pizza: return PizzaFactory() 
         }
     }
 }

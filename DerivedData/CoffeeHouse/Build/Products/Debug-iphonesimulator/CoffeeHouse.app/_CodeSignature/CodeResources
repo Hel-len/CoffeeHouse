@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		VJYvQqmsILvKRAzhuwlPYmo+KaA=
+		54mZmn8Bwpai79ocIjTy+7a4cAU=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -19,10 +19,6 @@
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
 		U0x8EM0781fCPb62BbZIXKeDlZ4=
-		</data>
-		<key>DessertSelectionViewController.nib</key>
-		<data>
-		oa+SPrSei+U1feYgyutkDmc+Oz8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -43,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1jh9Eot8VhFjDO/8XL5fj73vzR8yH+m9LhB7IWQddXQ=
+			1lVlHJ6ck77yA2X6KrMjO51GRKlHzLK98vuB3CXa7kU=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -65,13 +61,6 @@
 			<key>hash2</key>
 			<data>
 			cWq7q+iQcmpSoaFGecnyPdKFEPFwRD3slgUmxFADkVs=
-			</data>
-		</dict>
-		<key>DessertSelectionViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			56ahsNNfmiugvjeqoLg8HB/pEkh7xgVRKecuow+nsVU=
 			</data>
 		</dict>
 		<key>Nasalization.otf</key>

@@ -9,18 +9,28 @@
 import UIKit
 
 protocol DessertSelectionBusinessLogic {
-  func makeRequest(request: DessertSelection.Model.Request.RequestType)
+    func makeRequest(request: Selection.Model.Request.RequestType)
 }
 
 class DessertSelectionInteractor: DessertSelectionBusinessLogic {
 
-  var presenter: DessertSelectionPresentationLogic?
-  var service: DessertSelectionService?
-  
-  func makeRequest(request: DessertSelection.Model.Request.RequestType) {
-    if service == nil {
-      service = DessertSelectionService()
+    var presenter: DessertSelectionPresentationLogic?
+    var service: DessertSelectionService?
+    private var menuList: [FoodType] = []
+
+    func makeRequest(request: Selection.Model.Request.RequestType) {
+        if service == nil {
+            service = DessertSelectionService()
+        }
+        menuList = service!.createMenu()
+
+        switch request {
+
+        case .getFeed:
+            presenter?.presentData(response: Selection.Model.Response.ResponseType.presentFeed(feed: menuList))
+        case .getCurrentFeed(index: let index):
+            presenter?.presentData(response: Selection.Model.Response.ResponseType.presentCurrentFeed(type: menuList[index.row]))
+        }
     }
-  }
-  
+
 }

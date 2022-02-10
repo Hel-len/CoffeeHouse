@@ -9,9 +9,9 @@
 import UIKit
 
 class CoffeeSelectionService {
-    var coffeeList: [CoffeeType] = []
+    var coffeeList: [FoodType] = []
 
-    func createMenu() -> [CoffeeType] {
+    func createMenu() -> [FoodType] {
         coffeeList.append(CoffeeFactory().makeCoffee(type: .cappuchino))
         coffeeList.append(CoffeeFactory().makeCoffee(type: .latte))
         coffeeList.append(CoffeeFactory().makeCoffee(type: .espresso))

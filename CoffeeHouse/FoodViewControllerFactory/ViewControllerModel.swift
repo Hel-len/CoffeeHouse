@@ -21,6 +21,7 @@ protocol SelectionViewController {
 
     func setupViews()
     func setConstraints()
+    func displayData(viewModel: Selection.Model.ViewModel.ViewModelData)
 
 }
 

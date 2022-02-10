@@ -26,6 +26,26 @@ class MainInterfaceViewController: UIViewController, MainInterfaceDisplayLogic {
         return button
     }()
 
+    private var dessertSelectionButton: UIButton = {
+        let button = UIButton(type: .custom)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle("Make some dessert", for: .normal)
+        button.setTitleColor(.darkGray, for: .normal)
+        button.backgroundColor = .white
+        button.layer.cornerRadius = 15
+        return button
+    }()
+
+    private var pizzaSelectionButton: UIButton = {
+        let button = UIButton(type: .custom)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle("Make some pizza", for: .normal)
+        button.setTitleColor(.darkGray, for: .normal)
+        button.backgroundColor = .white
+        button.layer.cornerRadius = 15
+        return button
+    }()
+
 
     // MARK: Object lifecycle
 
@@ -68,13 +88,36 @@ class MainInterfaceViewController: UIViewController, MainInterfaceDisplayLogic {
 
     private func setupViews() {
         view.addSubview(coffeeSelectionButton)
+        view.addSubview(dessertSelectionButton)
+        view.addSubview(pizzaSelectionButton)
         coffeeSelectionButton.addTarget(self, action: #selector(coffeeSelection), for: .touchUpInside)
+        dessertSelectionButton.addTarget(self, action: #selector(dessertSelection), for: .touchUpInside)
+        pizzaSelectionButton.addTarget(self, action: #selector(pizzaSelection), for: .touchUpInside)
         setConstraints()
     }
 
     @objc private func coffeeSelection() {
-        let coffeeSelectionViewController = CoffeeSelectionViewController(image: "coffee", greeting: "", nibName: nil, bundle: nil)
+        let coffeeSelectionViewController = CoffeeSelectionViewController(
+            image: "coffee",
+            greeting: "What kind of coffee would you like?",
+            nibName: nil,
+            bundle: nil
+        )
         navigationController?.pushViewController(coffeeSelectionViewController, animated: true)
+    }
+
+    @objc private func dessertSelection() {
+        let dessertSelectionViewController = DessertSelectionViewController(
+            image: "dessert",
+            greeting: "What kind of dessert would you like?",
+            nibName: nil,
+            bundle: nil
+            )
+        navigationController?.pushViewController(dessertSelectionViewController, animated: true)
+    }
+
+    @objc private func pizzaSelection() {
+        print("pizza")
     }
 
 }
@@ -85,5 +128,19 @@ extension MainInterfaceViewController {
         coffeeSelectionButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
         coffeeSelectionButton.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true
         coffeeSelectionButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50).isActive = true
+
+        dessertSelectionButton.topAnchor.constraint(equalTo: coffeeSelectionButton.bottomAnchor, constant: 20).isActive = true
+        dessertSelectionButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        dessertSelectionButton.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true
+        dessertSelectionButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50).isActive = true
+
+        pizzaSelectionButton.topAnchor.constraint(equalTo: dessertSelectionButton.bottomAnchor, constant: 20).isActive = true
+        pizzaSelectionButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        pizzaSelectionButton.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true
+        pizzaSelectionButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50).isActive = true
+
+
+
+
     }
 }

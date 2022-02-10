@@ -9,20 +9,21 @@
 import UIKit
 
 protocol DessertSelectionDisplayLogic: AnyObject {
-    func displayData(viewModel: DessertSelection.Model.ViewModel.ViewModelData)
+    func displayData(viewModel: Selection.Model.ViewModel.ViewModelData)
 }
 
-final class DessertSelectionViewController: UIViewController, DessertSelectionDisplayLogic, SelectionViewController {
+final class DessertSelectionViewController: UIViewController, DessertSelectionDisplayLogic, TableManager, SelectionViewController {
 
+    var cellId = "DessertCell"
     var interactor: DessertSelectionBusinessLogic?
-    var router: (NSObjectProtocol & DessertSelectionRoutingLogic)?
+    var dessertType: FoodType? = nil
 
     let views = SelectionView()
-    var backgroundImage: UIImageView
-    var greetingLabel: UILabel
+
     var tableViewModel = TableViewModel.init(sections: [])
     var tableView = UITableView()
-    var cellId = "DessertCell"
+    var backgroundImage: UIImageView
+    var greetingLabel: UILabel
     var selectedView: UIImageView
     var selectedLabel: UILabel
 
@@ -49,7 +50,6 @@ final class DessertSelectionViewController: UIViewController, DessertSelectionDi
     }
 
     // MARK: Setup
-
     func setup() {
         let viewController        = self
         let interactor            = DessertSelectionInteractor()
@@ -63,17 +63,42 @@ final class DessertSelectionViewController: UIViewController, DessertSelectionDi
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupViews()
+        interactor?.makeRequest(request: Selection.Model.Request.RequestType.getFeed)
     }
 
-    func displayData(viewModel: DessertSelection.Model.ViewModel.ViewModelData) {
+    func displayData(viewModel: Selection.Model.ViewModel.ViewModelData) {
+        switch viewModel {
 
+        case .displayFeed(viewModel: let viewModel):
+            self.tableViewModel = viewModel
+            setupTableView()
+            tableView.reloadData()
+        case .currentFeed(viewModel: let viewModel):
+            self.selectedView.image = UIImage(named: viewModel.image)
+            self.selectedLabel.text = "\(viewModel.name)"
+            selectedView.isHidden = false
+            selectedLabel.isHidden = false
+        }
+    }
+
+    func setupTableView() {
+        tableView = TableViewManager(view: view, viewModel: tableViewModel, cellId: cellId, invoking: self)
+    }
+
+    func rowTapped(row: IndexPath) {
+        interactor?.makeRequest(request: Selection.Model.Request.RequestType.getCurrentFeed(index: row))
     }
 
     func setupViews() {
-
+        view.addSubview(backgroundImage)
+        view.addSubview(greetingLabel)
+        view.addSubview(tableView)
+        view.addSubview(selectedView)
+        selectedView.addSubview(selectedLabel)
+        setConstraints(superView: view)
     }
 
     func setConstraints() {
     }
-
 }

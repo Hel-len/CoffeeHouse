@@ -7,16 +7,7 @@
 
 import Foundation
 
-protocol CoffeeType: FoodType {
-    var name: String { get }
-    var description: String { get }
-    var image: String { get }
-
-    func start()
-    func getResult()
-}
-
-final class Latte: CoffeeType {
+final class Latte: FoodType {
 
     var description = CoffeeTypes.latte.description
     var name = CoffeeTypes.latte.rawValue
@@ -31,7 +22,7 @@ final class Latte: CoffeeType {
     }
 }
 
-final class Cappuchino: CoffeeType {
+final class Cappuchino: FoodType {
 
     var description = CoffeeTypes.cappuchino.description
     var name = CoffeeTypes.cappuchino.rawValue
@@ -46,7 +37,7 @@ final class Cappuchino: CoffeeType {
     }
 }
 
-final class Espresso: CoffeeType {
+final class Espresso: FoodType {
     var description = CoffeeTypes.espresso.description
     var name = CoffeeTypes.espresso.rawValue
     var image = CoffeeTypes.espresso.image

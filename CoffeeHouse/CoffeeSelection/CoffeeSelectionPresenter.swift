@@ -9,13 +9,13 @@
 import UIKit
 
 protocol CoffeeSelectionPresentationLogic {
-    func presentData(response: CoffeeSelection.Model.Response.ResponseType)
+    func presentData(response: Selection.Model.Response.ResponseType)
 }
 
 class CoffeeSelectionPresenter: CoffeeSelectionPresentationLogic {
     weak var viewController: CoffeeSelectionDisplayLogic?
     
-    func presentData(response: CoffeeSelection.Model.Response.ResponseType) {
+    func presentData(response: Selection.Model.Response.ResponseType) {
         switch response {
 
         case .presentFeed(let feed):
@@ -26,25 +26,25 @@ class CoffeeSelectionPresenter: CoffeeSelectionPresentationLogic {
                 cellViewModel(from: coffee)
             }
             tableViewModel.sections[0].cells = cells
-            viewController?.displayData(viewModel: CoffeeSelection.Model.ViewModel.ViewModelData.displayFeed(viewModel: tableViewModel))
+            viewController?.displayData(viewModel: Selection.Model.ViewModel.ViewModelData.displayFeed(viewModel: tableViewModel))
 
-        case .presentCoffee(let type):
+        case .presentCurrentFeed(let type):
 
-            let currentCoffee: CoffeeViewModel = coffeeView(from: type)
+            let currentFeed: FeedViewModel = coffeeView(from: type)
 
-            viewController?.displayData(viewModel: CoffeeSelection.Model.ViewModel.ViewModelData.makeCoffee(viewModel: currentCoffee))
+            viewController?.displayData(viewModel: Selection.Model.ViewModel.ViewModelData.currentFeed(viewModel: currentFeed))
         }
     }
 
-    private func cellViewModel(from coffee: CoffeeType) -> TableViewModel.Section.Cell {
+    private func cellViewModel(from coffee: FoodType) -> TableViewModel.Section.Cell {
         return TableViewModel.Section.Cell(
             content: coffee.name,
             secondaryContent: coffee.description,
             image: coffee.image)
     }
 
-    private func coffeeView(from feed: CoffeeType) -> CoffeeViewModel {
-        return CoffeeViewModel.init(
+    private func coffeeView(from feed: FoodType) -> FeedViewModel {
+        return FeedViewModel.init(
             name: feed.name,
             description: feed.description,
             image: feed.image)

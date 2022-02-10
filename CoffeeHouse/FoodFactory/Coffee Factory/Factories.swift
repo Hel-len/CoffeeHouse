@@ -9,7 +9,7 @@ import Foundation
 
 final class CoffeeFactory: FoodFactory {
 
-    func makeCoffee(type: CoffeeTypes) -> CoffeeType {
+    func makeCoffee(type: CoffeeTypes) -> FoodType {
         switch type {
 
         case .cappuchino: return Cappuchino()
@@ -21,7 +21,7 @@ final class CoffeeFactory: FoodFactory {
 
 final class DessertFactory: FoodFactory {
 
-    func makeDessert(type: DessertTypes) -> DessertType {
+    func makeDessert(type: DessertTypes) -> FoodType {
         switch type {
 
         case .cake: return Cake()
@@ -33,7 +33,7 @@ final class DessertFactory: FoodFactory {
 
 final class PizzaFactory: FoodFactory {
 
-    func makeDessert(type: PizzaTypes) -> PizzaType {
+    func makeDessert(type: PizzaTypes) -> FoodType {
         switch type {
 
         case .margaritha: return Margaritha()

@@ -7,16 +7,7 @@
 
 import Foundation
 
-protocol DessertType: FoodType {
-    var name: String { get }
-    var description: String { get }
-    var image: String { get }
-
-    func start()
-    func getResult()
-}
-
-final class Cake: DessertType {
+final class Cake: FoodType {
 
     var description = DessertTypes.cake.description
     var name = DessertTypes.cake.rawValue
@@ -31,7 +22,7 @@ final class Cake: DessertType {
     }
 }
 
-final class Bisquit: DessertType {
+final class Bisquit: FoodType {
 
     var description = DessertTypes.bisquit.description
     var name = DessertTypes.bisquit.rawValue
@@ -46,7 +37,8 @@ final class Bisquit: DessertType {
     }
 }
 
-final class Brownie: DessertType {
+final class Brownie: FoodType {
+    
     var description = DessertTypes.brownie.description
     var name = DessertTypes.brownie.rawValue
     var image = DessertTypes.brownie.image
